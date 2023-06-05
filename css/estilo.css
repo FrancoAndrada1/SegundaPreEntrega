@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+/*----------------------------nav bar----------------------------*/
+
+header{
+    background-color: #94a7ae;
+    height: 60px;
+    
+}
+
+ul li{
+    list-style-type: none;
+    padding: 20px;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none   ;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+/*----------------------------body----------------------------*/
+
+body{
+    background-color: #f4f2f3;
+    background-image: url(../images/white-texture.jpg);
+}
+
+.titulod1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-style: italic;
+}
+
+.carousel-inner img{
+    padding:30px;
+    width:690px;
+    height:500px;
+}
+
+.textoin h1{
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.maps{
+    padding: 10px;
+    
+}
+
+.textmap h1{
+    font-size: 40px;
+}
+
+.tituloproducto{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: solid underline;
+}
+
+.form{
+    padding: 10px;
+}
+
+.servicios{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px   ;
+}
+
+.tithis{
+    padding:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.arti{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+/*----------------------------footer----------------------------*/
+
+footer{
+    background-color: #94a7ae;
+    padding: 20px; 
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.logosredes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logosredes img{
+    height: 60px;
+    width: auto;
+}
+
+/* ====================================================================  */
+
+@media (min-width: 400px) {
+
+    header{
+    background-color: blue;
+}
+
+    nav{
+        width: 100%;
+    }
+
+    footer{
+    background-color: blue;
+}
+
+
+
+    }
+
+
+
+
+/*  ===================================================================  */
+
+@media (min-width: 800px) {
+
+    header{
+        background-color: red;
+    }
+
+    nav{
+        width: 100%;
+
+    }
+
+    footer{
+        background-color: red;
+    }
+
+}
+
+/*  ====================================================================  */
+
+@media (min-width:1200px){
+
+    header{
+        background-color: #94a7ae;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    footer{
+        background-color: #94a7ae;
+    }
+
+    }
